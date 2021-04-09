@@ -7,6 +7,7 @@ function getDate() {
   cc = year.substring(0, 2);
   yy = year.toString().substr(-2);
   var akan_name = getAkanName(day_of_week, gender);
+  document.getElementById("span_akan_name").textContent = "Your akan name is " + akan_name;
 }
 
 function getDayofWeek(CC, YY, MM, DD) {
