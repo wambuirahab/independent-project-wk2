@@ -70,4 +70,31 @@ function getAkanName(day_of_week, gender) {
     return male_akan_name;
   }
 
+  if (gender == "female") {
+    if (day_of_week == "Sunday") {
+      female_akan_name = female_akan[0];
+    }
+    if (day_of_week == "Monday") {
+      female_akan_name = female_akan[1];
+
+    }
+    if (day_of_week == "Tuesday") {
+      female_akan_name = female_akan[2];
+    }
+    if (day_of_week == "Wednesday") {
+      female_akan_name = female_akan[3];
+    }
+    if (day_of_week == "Thursday") {
+      female_akan_name = female_akan[4];
+    }
+    if (day_of_week == "Friday") {
+      female_akan_name = female_akan[5];
+    }
+    if (day_of_week == "Saturday") {
+      female_akan_name = female_akan[6];
+    }
+
+    return female_akan_name;
+  }
+
 }
