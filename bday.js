@@ -37,3 +37,7 @@ function getDayofWeek(CC, YY, MM, DD) {
 
   return day_of_week
 }
+
+function getAkanName(day_of_week, gender) {
+
+}
