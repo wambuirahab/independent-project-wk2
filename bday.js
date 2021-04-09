@@ -7,3 +7,7 @@ function getDate() {
   cc = year.substring(0, 2);
   yy = year.toString().substr(-2);
 }
+
+function getDayofWeek(CC, YY, MM, DD) {
+  var _day = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
+}
