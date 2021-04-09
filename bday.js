@@ -41,4 +41,33 @@ function getDayofWeek(CC, YY, MM, DD) {
 function getAkanName(day_of_week, gender) {
   var male_akan = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
   var female_akan = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
+
+  if (gender == "male") {
+    if (day_of_week == "Sunday") {
+      male_akan_name = male_akan[0];
+
+    }
+    if (day_of_week == "Monday") {
+      male_akan_name = male_akan[1];
+
+    }
+    if (day_of_week == "Tuesday") {
+      male_akan_name = male_akan[2];
+    }
+    if (day_of_week == "Wednesday") {
+      male_akan_name = male_akan[3];
+    }
+    if (day_of_week == "Thursday") {
+      male_akan_name = male_akan[4];
+    }
+    if (day_of_week == "Friday") {
+      male_akan_name = male_akan[5];
+    }
+    if (day_of_week == "Saturday") {
+      male_akan_name = male_akan[6];
+    }
+
+    return male_akan_name;
+  }
+
 }
