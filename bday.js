@@ -39,5 +39,6 @@ function getDayofWeek(CC, YY, MM, DD) {
 }
 
 function getAkanName(day_of_week, gender) {
-
+  var male_akan = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
+  var female_akan = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
 }
