@@ -6,6 +6,7 @@ function getDate() {
   var [year, month, day] = date_value.split("-");
   cc = year.substring(0, 2);
   yy = year.toString().substr(-2);
+  var akan_name = getAkanName(day_of_week, gender);
 }
 
 function getDayofWeek(CC, YY, MM, DD) {
