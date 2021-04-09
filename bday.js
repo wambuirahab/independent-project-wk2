@@ -6,6 +6,7 @@ function getDate() {
   var [year, month, day] = date_value.split("-");
   cc = year.substring(0, 2);
   yy = year.toString().substr(-2);
+  var day_of_week = getDayofWeek(parseInt(cc), parseInt(yy), parseInt(month), parseInt(day));
   var akan_name = getAkanName(day_of_week, gender);
   document.getElementById("span_akan_name").textContent = "Your akan name is " + akan_name;
 }
