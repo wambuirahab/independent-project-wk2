@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffff00;
+  padding: 150px;
+  font-family: Arial,;
+}
+h2{
+  font-size: 30px;
+  margin: auto;
+  text-align: justify;
+  color: #0000ff;
+}
+p{
+  font-style: italic;
+
+}
+
+@media screen and (max-width:900px);
+
+#main
+   max-width:1000px;
